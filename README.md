@@ -9,6 +9,19 @@ Le tutoriel que j'ai suivi n'était pas à jour, ce qui a provoqué des problèm
 J'espère que cette version vous convient.
 
 
+TECHNIQUE :
+Où trouver les informations telles que la version de buildTools, les dépendances, les versions de compileSdk et minSdk ? -> build.gradle.kts
+Si cela ne compile pas, veuiller essayer ces méthodes :
+
+Méthode 1 : Dans le cas spécifique ":app is currently compiled against android-33"
+https://youtu.be/aSy1mgKz3Vw?si=a0B5XdFj6AssHpd2
+
+Méthode 2 : Problème d'importation, implémentation...
+Dans Android Studio : Cliquer sur "Files" puis "Invalidate Caches" puis Cocher les options et cliquer sur "Invalidate and Restart"
+
+Méthode 3 :Problème d'importation, implémentation...
+"Build" -> "Clean Project" -> "Rebuild Project"
+
 
 
 This is not my own "memory", but currently I am learning Android application development by following tutorials on YouTube, notably those by rpandey1234.
