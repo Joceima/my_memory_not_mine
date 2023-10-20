@@ -11,6 +11,10 @@ Le tutoriel que j'ai suivi n'était pas à jour, ce qui a provoqué des problèm
 
 J'espère que cette version vous convient.
 
+# Técharger un ZIP 
+Voici un tuto : Cliquer sur "Code" en haut et "Download Zip"
+https://blog.hubspot.com/website/download-from-github#repository
+
 
 # Partie Technique
 
@@ -22,9 +26,9 @@ J'espère que cette version vous convient.
 
 - Méthode 1 : Résoudre le problème spécifique ":app est actuellement compilé contre android-33" en suivant ce [tutoriel vidéo](https://youtu.be/aSy1mgKz3Vw?si=a0B5XdFj6AssHpd2).
 
-- Méthode 2 : Résoudre les problèmes d'importation et d'implémentation en utilisant Android Studio. Cliquez sur "Files," puis "Invalidate Caches," puis cochez les options et cliquez sur "Invalidate and Restart."
+- Méthode 2 : Résoudre les problèmes provenant de l'IDE et autres. Cliquez sur "Files," puis "Invalidate Caches," puis cochez les options et cliquez sur "Invalidate and Restart."
 
-- Méthode 3 : Résoudre les problèmes d'importation et d'implémentation. Allez dans "Build," puis "Clean Project," suivi de "Rebuild Project."
+- Méthode 3 : Résoudre les conflits de dépendances, compilation et autres. Allez dans "Build," puis "Clean Project," suivi de "Rebuild Project."
 
 # APK
 Voici l'APK, sur android.
