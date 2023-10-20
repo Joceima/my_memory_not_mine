@@ -26,6 +26,10 @@ J'espère que cette version vous convient.
 
 - Méthode 3 : Résoudre les problèmes d'importation et d'implémentation. Allez dans "Build," puis "Clean Project," suivi de "Rebuild Project."
 
+# APK
+Voici l'APK, sur android.
+https://github.com/Joceima/my_memory_not_mine/blob/test2/app-debug.apk
+
 </div>
 
 
