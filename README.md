@@ -11,6 +11,21 @@ Le tutoriel que j'ai suivi n'était pas à jour, ce qui a provoqué des problèm
 
 J'espère que cette version vous convient.
 
+# Utilisation et présentation du jeu
+Le jeu Memory est un jeu de société où des cartes sont mélangées face cachée. Le but est de retourner deux cartes à la fois pour trouver des paires identiques. Si les cartes sont les mêmes, le joueur gagne un point et les conserve. Si elles sont différentes, il les retourne face cachée, et le joueur continue à chercher des paires. Le but est de trouver toutes les paires du jeu en utilisant la mémoire et la concentration.
+
+Dans l'application, le jeu propose 3 niveaux: EASY, MEDIUM et HARD. 
+Pour changer le niveau, il suffit d'appuyer sur le bouton (3 petits points) en haut à droite et cliquer sur "Choose new size". Choicissez parmi les 3 boutons radio.
+- Easy (4 x 2)
+- Medium (6 x 3)
+- Hard (6 x 4)
+Puis Ok.
+Maintenant vous pouvez jouer et suivre l'avancement de votre partie grâce aux textes ci-dessous qui indiquent le nombre de mouvements et de pairs trouvées.
+Il y a un bouton avec un logo flèche, celui-ci sert à "refresh", remettre la partie de 0.
+
+Le bouton "Create custom game" est cliquable, il va vous mener à un nouvel écran mais vu que le tutoriel n'est pas à jour, je me suis arrêtée à là car les problèmes que je rencontrais me faisaient perdre beaucoup de temps. 
+
+
 # Técharger un ZIP 
 Voici un tuto : Cliquer sur "Code" en haut et "Download Zip"
 https://blog.hubspot.com/website/download-from-github#repository
@@ -33,6 +48,8 @@ https://blog.hubspot.com/website/download-from-github#repository
 # APK
 Voici l'APK, sur android.
 https://github.com/Joceima/my_memory_not_mine/blob/test2/app-debug.apk
+
+
 
 </div>
 
