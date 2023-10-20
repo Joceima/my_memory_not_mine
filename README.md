@@ -33,6 +33,9 @@ https://github.com/Joceima/my_memory_not_mine/blob/test2/app-debug.apk
 </div>
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------  <!-- Ligne horizontale -->
+
+
 <div lang="en">
 This is not my own "memory", but currently I am learning Android application development by following tutorials on YouTube, notably those by rpandey1234.
 https://www.youtube.com/rpandey1234
