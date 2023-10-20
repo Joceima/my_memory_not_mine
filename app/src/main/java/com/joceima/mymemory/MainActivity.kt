@@ -22,12 +22,15 @@ import com.joceima.mymemory.models.MemoryCard
 import com.joceima.mymemory.models.MemoryGame
 import com.joceima.mymemory.utils.DEFAULT_ICONS
 import android.content.Context
+import android.content.Intent
 import android.widget.RadioGroup
+import com.joceima.mymemory.utils.EXTRA_BOARD_SIZE
 
 class MainActivity : AppCompatActivity() {
 
     companion object{
         private const val TAG = "MainActivity"
+        private const val CREATE_REQUEST_CODE = 248
     }
 
 
@@ -83,8 +86,31 @@ class MainActivity : AppCompatActivity() {
                 showSizeDialog()
                 return true
             }
+            R.id.mi_custom->{
+                showCreationDialog()
+                return true
+            }
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun showCreationDialog() {
+        val boardSizeView = LayoutInflater.from(this).inflate(R.layout.dialog_board_size, null)
+        val radioGroupSize= boardSizeView.findViewById<RadioGroup>(R.id.radioGroup)
+        showAlertDialog("Create your own memory board",boardSizeView, View.OnClickListener {
+            //Set a new value for the board size
+            val desireBoardSize = when (radioGroupSize.checkedRadioButtonId){
+                R.id.rbEasy -> BoardSize.EASY
+                R.id.rbMedium -> BoardSize.MEDIUM
+                R.id.rbHard -> BoardSize.HARD
+                else -> BoardSize.HARD
+            }
+            //on navigue l'utilisateur avec un nouvel écran
+            val intent = Intent(this, CreateActivity::class.java)
+            intent.putExtra(EXTRA_BOARD_SIZE, desireBoardSize)
+            startActivityForResult(intent,CREATE_REQUEST_CODE)
+        })
+
     }
 
     private fun showSizeDialog() {
